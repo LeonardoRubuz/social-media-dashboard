@@ -65,3 +65,39 @@ button span{
     align-self: center;
     background-color: white;
 }
+
+/* Main & children */
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main section:first-child{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.7rem;
+}
+
+.large-card{
+    border-top: 0.2rem solid red;
+    border-radius: 4px;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-grayish-blue);
+}
+
+.large-card div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.large-card p{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
