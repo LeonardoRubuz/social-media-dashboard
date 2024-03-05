@@ -31,6 +31,8 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
 }
 
 .title{
@@ -41,12 +43,10 @@ header{
 
 .title span:first-child{
     font-size: 2em;
-    font-weight: 700;
+    color: black;
 }
-.title span:last-child{
-    font-weight: 700;
-    color: var(--dark-grayish-blue);
-}
+
+
 .toggle{
     align-self: center;
     display: flex;
@@ -58,6 +58,7 @@ button{
     width: 3rem;
     height: 1.6rem;
     border-radius: 15px;
+    border: none;
     display: flex;
 }
 
