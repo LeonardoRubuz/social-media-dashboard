@@ -96,6 +96,10 @@ main section:first-child{
     flex-direction: column;
     align-items: center;
 }
+.large-card div:nth-child(2) span{
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+}
 .large-card p{
     font-size: 2.3rem;
     font-weight: 700;
