@@ -115,7 +115,8 @@ main section:nth-child(2){
 }
 
 .small-card{
-    border: 1px solid black;
+    border-radius: 4px;
     height: 8rem;
     padding: 0.4rem;
+    background-color: var(--light-grayish-blue);
 }
