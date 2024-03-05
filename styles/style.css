@@ -21,7 +21,7 @@
 
 body{
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     display: grid;
     row-gap: 50px;
     padding: 2rem 15rem;
@@ -100,6 +100,12 @@ main section:first-child{
     font-size: 2.3rem;
     font-weight: 700;
 }
+
+.large-card img{
+    vertical-align: middle;
+    margin-right: .5em;
+}
+
 
 main section:nth-child(2){
     display: flex;
