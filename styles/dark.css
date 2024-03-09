@@ -1,0 +1,26 @@
+*{
+    --very-dark-blue : hsl(230, 17%, 14%);
+    --dark-blue :  hsl(228, 28%, 20%);
+}
+body{
+    background-color: var(--very-dark-blue);
+}
+
+.toggle > button > span{
+    background-color: var(--very-dark-blue);
+}
+
+.large-card,
+.small-card{
+    background-color: var(--dark-blue);
+}
+.large-card:hover,
+.small-card:hover{
+    background-color: hsl(228, 28%, 20%, 0.1);
+}
+
+.title > span:first-child,
+.large-card p,
+.small-card-number{
+    color: white;
+}
