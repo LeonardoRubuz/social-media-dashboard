@@ -168,9 +168,26 @@ main section:nth-child(2){
     margin: 0.7em;
 }
 
+.small-card > div:last-child > div{
+    height: fit-content;
+    align-self: center;
+    margin-right: 0.3rem;
+}
+
+.small-card > div > span{
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+}
+
 .small-card-number{
     font-size: 21px;
     font-weight: 700;
+}
+
+.small-card:hover,
+.large-card:hover{
+    cursor: pointer;
+    background-color: hsla(229, 12%, 44%, 0.25);
 }
 
 .success{
