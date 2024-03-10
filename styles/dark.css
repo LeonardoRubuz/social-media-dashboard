@@ -6,6 +6,9 @@ body{
     background-color: var(--very-dark-blue);
 }
 
+.toggle > button{
+    background-image: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
 .toggle > button > span{
     background-color: var(--very-dark-blue);
 }
