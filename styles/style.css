@@ -62,6 +62,10 @@ button{
     display: flex;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 button span{
     height: 0.99rem;
     width: 0.99rem;
