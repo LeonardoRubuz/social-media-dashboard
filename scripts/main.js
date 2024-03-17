@@ -4,12 +4,15 @@ const toggleButton = document.getElementById('toggleBtn')
 
 // Set the default theme to light
 themeLink.remove()
-let isDark = false
+let isLight = true
 
-function themeSwitcher() {
-    if (isDark) {
-        console.log(isDark);
+
+toggleButton.addEventListener('click', () => {
+    if (isLight) {
+        head.appendChild(themeLink)
+        isLight = false
+    }else{
+        head.removeChild(themeLink)
+        isLight = true
     }
-}
-
-toggleButton.addEventListener('click', themeSwitcher)
+})
