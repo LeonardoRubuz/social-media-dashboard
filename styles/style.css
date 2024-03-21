@@ -204,3 +204,46 @@ main section:nth-child(2){
     font-size: small;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 393px) {
+    body{
+        width: 100vw;
+        max-width: 100vw;
+        padding: 2rem 1rem;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .toggle{
+        width: 92vw;
+        align-self: flex-start;
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px var(--dark-grayish-blue) solid;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    main{
+        width: 100%;
+        max-width: 100%;
+    }
+    main section:first-child{
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
+    }
+    .large-card{
+        width: 92vw;
+    }
+
+    .overview-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .small-card{
+        width: 89vw;
+    }
+}
